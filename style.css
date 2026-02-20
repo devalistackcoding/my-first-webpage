@@ -175,7 +175,7 @@ section .call-to-action{
 }
 
 section .call-to-action .action-text{
-    width: 60%;
+    width: 65%;
 }
 
 section .call-to-action .action-text h2, section .call-to-action .action-text p{
@@ -215,7 +215,7 @@ footer{
     font-weight: 600;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     .content-wrapper nav ul{
         display: none;
     }
@@ -257,12 +257,12 @@ footer{
     }
 
     section.progress{
-        height: 500px;
+        height: 450px;
     }
 
     .learning-container div{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     .content-wrapper .call-to-action h2{
@@ -278,6 +278,23 @@ footer{
         padding: 30px;
         width: 100%;
         flex-direction: column;
+    }
+
+    .header-img{
+        height: 200px;
+        width: 100%;
+    }
+
+    .grey-bg .content-wrapper{
+        padding: 20px;
+    }
+
+    .grey-bg .content-wrapper p{
+        font-size: 32px;
+    }
+
+    .grey-bg .content-wrapper p:nth-child(2){
+        font-size: 18px;
     }
 
 }
