@@ -168,6 +168,7 @@ section .call-to-action{
     justify-content: space-around;
     align-items: center;
     height: 200px;
+    width: 100%;
     padding: 0 100px;
     border-radius: 15px;
     gap: 30px;
