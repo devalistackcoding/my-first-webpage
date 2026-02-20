@@ -220,6 +220,10 @@ footer{
         display: none;
     }
 
+    .content-wrapper{
+        width: 90%;
+    }
+
     .content-wrapper nav{
         justify-content: center;
     }
