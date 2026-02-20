@@ -142,6 +142,10 @@ section.grey-bg{
     justify-content: center;
 }
 
+.grey-bg .content-wrapper{
+    width: 40%;
+}
+
 .grey-bg p:nth-child(1){
     text-align: left;
     font-style: italic;
@@ -295,6 +299,10 @@ footer{
 
     .grey-bg .content-wrapper p:nth-child(2){
         font-size: 18px;
+    }
+
+    .grey-bg .content-wrapper{
+        width: 100%;
     }
 
 }
